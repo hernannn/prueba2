@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Formula1</label>
+	</settings>
+	<users>
+		<user>
+			<path>Formula1.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Formula1.jcp</path>
+		</project>
+	</projects>
+</workspace>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Formula1</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 1.7.0_05</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Formula1</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\Formula1.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Login.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Mat.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Registrar.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\registro_de_usuario.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>todo soy yo</description>
+			<filepath>src\Login.java</filepath>
+			<line>108</line>
+			<timestamp>1385218894</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>todo soy yo</description>
+			<filepath>src\Registrar.java</filepath>
+			<line>154</line>
+			<timestamp>1385347895</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>todo soy yo</description>
+			<filepath>src\registro_de_usuario.java</filepath>
+			<line>145</line>
+			<timestamp>1385389924</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>
