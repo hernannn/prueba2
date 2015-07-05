@@ -82,7 +82,7 @@ public class DateComboBox extends JComboBox {
     class DatePopup implements ComboPopup, MouseMotionListener, 
 			       MouseListener, KeyListener, PopupMenuListener {
 	
-	protected JComboBox comboBox;
+	protected JComboBox 
 	protected Calendar calendar;
 	protected JPopupMenu popup;
 	protected JLabel monthLabel;
