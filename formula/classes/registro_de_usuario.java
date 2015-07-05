@@ -65,7 +65,7 @@ public class registro_de_usuario implements ActionListener {
        	jtusuario.setToolTipText("**Digite aqui su nombre de usuario**");
        	jlcontraseña=new JLabel("ContraseÃ±a");
 		jpcontraseña=new JPasswordField("");
-       	jpcontraseña.setToolTipText("Digite aqu su clave de 10 digitos");
+       	jpcontraseña.setToolTipText("***DIGITE AQUI SU CLAVE DE 10 DIGITOS***");
        	Fondo=new ImageIcon("imagenes\\F1.jpg");//@param "ImageIcon" Poniendo imagen de Fondo*/
        	jlfondo=new JLabel(Fondo);
 
