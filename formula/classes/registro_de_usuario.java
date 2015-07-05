@@ -53,7 +53,7 @@ public class registro_de_usuario implements ActionListener {
     	//Nombre de la Variable JFrame
     	Ventana=new JFrame ("REGISTRAR");
 
-
+/**
        	jlusuario=new JLabel("NOMBRE DEL USUARIO");
        	jlcorreo=new JLabel("EMAIL");
        	jtcorreo=new JTextField("");
