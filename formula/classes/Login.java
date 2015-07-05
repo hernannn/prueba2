@@ -74,7 +74,7 @@ public class Login implements ActionListener
 		jpcontraseña.reshape(140,40,130,25);
 		jbiniciar.reshape (90,90,100,25);
 		jbcerrar.reshape(200,90,100,25);
-		jlfondo.reshape(100,0,300,200);    //Tamaño de fondo*/
+		jlfondo.reshape(100,0,300,210);    //Tamaño de fondo*/
 
 
 
