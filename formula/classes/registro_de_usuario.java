@@ -62,10 +62,10 @@ public class registro_de_usuario implements ActionListener {
        	jbconsultar=new JButton ("CONSULTAR");
        	jbmodificar=new JButton("MODIFICAR");
        	jtusuario=new JTextField("");
-       	jtusuario.setToolTipText("Digite aquÃ­ su nombre de usuario");
+       	jtusuario.setToolTipText("**Digite aqui su nombre de usuario**");
        	jlcontraseña=new JLabel("ContraseÃ±a");
 		jpcontraseña=new JPasswordField("");
-       	jpcontraseña.setToolTipText("Digite aquÃ­ su clave de 10 digitos");
+       	jpcontraseña.setToolTipText("Digite aqu su clave de 10 digitos");
        	Fondo=new ImageIcon("imagenes\\F1.jpg");//@param "ImageIcon" Poniendo imagen de Fondo*/
        	jlfondo=new JLabel(Fondo);
 
