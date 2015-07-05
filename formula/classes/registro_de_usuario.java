@@ -20,10 +20,10 @@ import javax.swing.table.DefaultTableModel;
 
 public class registro_de_usuario implements ActionListener {
 
-	JFrame Ventan
-	JLabel jlcorreo,jlusuario, jlcontraseña,jlfondo;//Estos son los LABEL
+	JFrame Ventana;
+	JLabel jlcorreo,jlusuario, jlcontrase�a,jlfondo;//Estos son los LABEL
 	JTextField jtusuario;//Estos son los TEXTBOX
-	JPasswordField jpcontraseña;
+	JPasswordField jpcontrase�a;
 	JTextField jtcorreo;
     JButton jbguardar;//@param  "JButton" parametro par crear botones*/
     JButton jbeliminar;
@@ -53,7 +53,6 @@ public class registro_de_usuario implements ActionListener {
     	//Nombre de la Variable JFrame
     	Ventana=new JFrame ("REGISTRAR");
 
-/**
        	jlusuario=new JLabel("NOMBRE DEL USUARIO");
        	jlcorreo=new JLabel("EMAIL");
        	jtcorreo=new JTextField("");
@@ -64,9 +63,9 @@ public class registro_de_usuario implements ActionListener {
        	jbmodificar=new JButton("MODIFICAR");
        	jtusuario=new JTextField("");
        	jtusuario.setToolTipText("Digite aquí su nombre de usuario");
-       	jlcontraseña=new JLabel("Contraseña");
-		jpcontraseña=new JPasswordField("");
-       	jpcontraseña.setToolTipText("Digite aquí su clave de 10 digitos");
+       	jlcontrase�a=new JLabel("Contraseña");
+		jpcontrase�a=new JPasswordField("");
+       	jpcontrase�a.setToolTipText("Digite aquí su clave de 10 digitos");
        	Fondo=new ImageIcon("imagenes\\F1.jpg");//@param "ImageIcon" Poniendo imagen de Fondo*/
        	jlfondo=new JLabel(Fondo);
 
@@ -102,8 +101,8 @@ public class registro_de_usuario implements ActionListener {
     	//Se puede utilizar RESHAPE o SETBOUNDS
     	jlusuario.reshape(5,5,130,25); //Las medidas se componen de X,Y,ANCHO y LARGO
 		jtusuario.reshape(140,5,130,25);
-		jlcontraseña.reshape(5,40,130,25);
-		jpcontraseña.reshape(140,40,130,25);
+		jlcontrase�a.reshape(5,40,130,25);
+		jpcontrase�a.reshape(140,40,130,25);
 		jlcorreo.reshape(5,80,130,25);
 		jtcorreo.reshape(140,80,130,25);
 		jbguardar.reshape (10,200,90,25);
@@ -116,8 +115,8 @@ public class registro_de_usuario implements ActionListener {
 		//Agregamos los elementos al JFrame
 		Ventana.add(jlusuario);
 		Ventana.add(jtusuario);
-		Ventana.add(jlcontraseña);
-		Ventana.add(jpcontraseña);
+		Ventana.add(jlcontrase�a);
+		Ventana.add(jpcontrase�a);
 		Ventana.add(jlcorreo);
 		Ventana.add(jtcorreo);
 		Ventana.add(jbguardar);
@@ -213,7 +212,7 @@ public class registro_de_usuario implements ActionListener {
    		r = mat.BuscarRegistro(JOptionPane.showInputDialog("Ingrese Usuario")); //Mensaje informativo*/
    		if(r!=null){
    			jtusuario.setText(r[0]);
-   			jpcontraseña.setText(r[1]);
+   			jpcontrase�a.setText(r[1]);
    			jtcorreo.setText(r[2]);
 
 
@@ -225,7 +224,7 @@ public class registro_de_usuario implements ActionListener {
     void guardar(){
    		try{
 	   		String Usuario = jtusuario.getText();
-	   		String Contrasena= jpcontraseña.getText();
+	   		String Contrasena= jpcontrase�a.getText();
 	   		String Email=jtcorreo.getText();
 
 
@@ -242,7 +241,7 @@ public class registro_de_usuario implements ActionListener {
     void Nuevo()
     {
     	jtusuario.setText("");
-    	jpcontraseña.setText("");
+    	jpcontrase�a.setText("");
     	jtcorreo.setText("");
     }
 
@@ -252,7 +251,7 @@ public class registro_de_usuario implements ActionListener {
 	{
 
 			String Usuario = jtusuario.getText();
-	   		String Contrasena= jpcontraseña.getText();
+	   		String Contrasena= jpcontrase�a.getText();
 	   		String Email=jtcorreo.getText();
 
 	   		mat.ModificarRegistro(Usuario,Contrasena,Email);
