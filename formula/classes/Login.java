@@ -100,7 +100,7 @@ public class Login implements ActionListener
 
 
     	//@Param "resize" comando para colocar el tamaño de la ventana*/
-		Ventana.resize(400,200);
+		Ventana.resize(450,250);
 		//@Param "setLocationRelativeTo" comando para centrar la Ventana*/
 		Ventana.setLocationRelativeTo(null);
 		//@param "setResizable" comando para bloquear el tamaño de la ventana, lo deja fijo*/
